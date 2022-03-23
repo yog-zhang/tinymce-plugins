@@ -10,9 +10,12 @@ npm install tinymce-paragraphspacing
 ```
 
 ## 方式二：
-[下载paragraphspacing](,'下载paragraphspacing插件')
-新建一个plugins文件夹(默认在vue框架下)，放置tinymce扩展插件
-![tinymce截图1]('https://github.com/yog-zhang/assets/blob/main/images/tinymce_1.png', 'tinymce截图1')
+[下载paragraphspacing](https://github.com/yog-zhang/tinymce-plugins/releases/download/v0.0.1/paragraphspacing.zip '下载paragraphspacing插件')
+
+新建一个plugins文件夹(默认在vue框架下)，将下载好的paragraphspacing插件文件放置在该文件夹下
+
+![新建tinymce插件文件夹](https://github.com/yog-zhang/assets/blob/main/images/tinymce_1.png 'tinymce插件文件夹')
+
 vue组件中导入：
 ```
 import '@/plugins/tinymce/paragraphspacing/index.js'
@@ -36,7 +39,8 @@ init: {
 },
 ```
 paragraphspacing默认的值为：'0px 3px 5px 10px 15px 20px 30px 50px'，如下图：
-![paragraphspacing默认值]('https://github.com/yog-zhang/assets/blob/main/images/tinymce_2.png', 'paragraphspacing默认值')
+
+![paragraphspacing默认值](https://github.com/yog-zhang/assets/blob/main/images/tinymce_2.png 'paragraphspacing默认值')
 
 也可以自定义设置paragraphspacing的值：
 ```
@@ -58,7 +62,8 @@ init: {
 },
 ```
 如图：
-![paragraphspacing自定义值]('https://github.com/yog-zhang/assets/blob/main/images/tinymce_3.png', 'paragraphspacing自定义值')
+
+![paragraphspacing自定义值](https://github.com/yog-zhang/assets/blob/main/images/tinymce_3.png 'paragraphspacing自定义值')
 
 ### menu菜单设置方式
 ```
@@ -84,7 +89,8 @@ init: {
 },
 ```
 如图：
-![paragraphspacing菜单设置方式]('https://github.com/yog-zhang/assets/blob/main/images/tinymce_4.png', 'paragraphspacing菜单设置方式')
+
+![paragraphspacing菜单设置方式](https://github.com/yog-zhang/assets/blob/main/images/tinymce_4.png 'paragraphspacing菜单设置方式')
 
 
  
