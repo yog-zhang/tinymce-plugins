@@ -8,18 +8,11 @@
 ```
 npm install tinymce-paragraphspacing
 ```
-
-## 方式二：
-[下载paragraphspacing](https://github.com/yog-zhang/tinymce-plugins/releases/download/v0.0.1/paragraphspacing.zip '下载paragraphspacing插件')
-
-新建一个plugins文件夹(默认在vue框架下)，将下载好的paragraphspacing插件文件放置在该文件夹下
-
-![新建tinymce插件文件夹](https://github.com/yog-zhang/assets/blob/main/images/tinymce_1.png 'tinymce插件文件夹')
-
-vue组件中导入：
+使用import导入：
 ```
-import '@/plugins/tinymce/paragraphspacing/index.js'
+import 'tinymce-paragraphspacing'
 ```
+
 ### toolbar设置方式
 tinymce初始化配置：
 ```
@@ -92,5 +85,16 @@ init: {
 
 ![paragraphspacing菜单设置方式](https://github.com/yog-zhang/assets/blob/main/images/tinymce_4.png 'paragraphspacing菜单设置方式')
 
+## 方式二：
+[下载paragraphspacing](https://github.com/yog-zhang/tinymce-plugins/releases/download/v0.0.2/paragraphspacing.zip '下载paragraphspacing插件')
 
+新建一个plugins文件夹(默认在vue框架下)，将下载好的paragraphspacing插件文件放置在该文件夹下
+
+![新建tinymce插件文件夹](https://github.com/yog-zhang/assets/blob/main/images/tinymce_1.png 'tinymce插件文件夹')
+
+vue组件中导入：
+```
+import '@/plugins/tinymce/paragraphspacing/index.js'
+```
+配置方法以及使用方法同方式一
  

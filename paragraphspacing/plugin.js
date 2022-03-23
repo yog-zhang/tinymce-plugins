@@ -43,7 +43,6 @@ tinymce.PluginManager.add('paragraphspacing', function(editor, url) {
             };
         });
         callback(items);
-        console.log('editor::', editor);
     },
     onSetup: function(api) {
         selectedItem = paragraphspacing.split(' ')[0]
@@ -73,14 +72,12 @@ tinymce.PluginManager.add('paragraphspacing', function(editor, url) {
         });
     }
   });
-
-  editor.addCommand('paragraphspacing', doAct);
   
   return {
       getMetadata: function () {
           return  {
               name: pluginName,
-              url: "",
+              url: "https://github.com/yog-zhang/tinymce-plugins.git",
           };
       }
   };
